@@ -6,11 +6,18 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Clover stuff.
+$(call inherit-product, vendor/clover/config/common_full_phone.mk)
+
+# Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+CLOVER_BUILDTYPE := OFFICIAL
+CLOVER_MAINTAINER := Akshat
+TARGET_ENABLE_BLUR := true
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_beryllium
+PRODUCT_NAME := clover_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
