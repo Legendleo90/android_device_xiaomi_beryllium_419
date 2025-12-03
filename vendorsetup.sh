@@ -11,6 +11,7 @@ rm -rf hardware/qcom-caf/sdm845/display
 rm -rf device/clover/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf hardware/qcom-caf/common
+rm -rf vendor/bcr
 rm -rf vendor/clover-priv
 git clone https://github.com/Legendleo90/android_device_xiaomi_sdm845-common_419.git -b clover device/xiaomi/sdm845-common
 git clone https://github.com/Legendleo90/android_vendor_xiaomi_beryllium_419.git vendor/xiaomi/beryllium
@@ -23,4 +24,5 @@ git clone https://github.com/Legendleo90/android_hardware_qcom_display.git hardw
 git clone https://github.com/Legendleo90/device_clover_sepolicy.git device/clover/sepolicy
 git clone https://github.com/Legendleo90/android_device_qcom_sepolicy_vndr.git device/qcom/sepolicy_vndr/legacy-um
 git clone https://github.com/Legendleo90/hardware_qcom-caf_common.git hardware/qcom-caf/common
+git clone https://github.com/Legendleo90/vendor_bcr.git vendor/bcr
 git clone https://github.com/TheCloverProject-Devices/vendor_clover-priv.git vendor/clover-priv
